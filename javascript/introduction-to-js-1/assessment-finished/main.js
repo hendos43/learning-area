@@ -9,7 +9,7 @@ function randomValueFromArray(array){
 
 let storyText = ':insertA: :insertB: :insertC: with :insertD:.';
 let insertA = ['Draw', 'Lick', 'Kiss', 'Destroy'];
-let insertB = ['a handful of','2', '12'];
+let insertB = ['a handful of','2', '12', 'several'];
 let insertC = ['grains of rice', 'legs', 'jelly babies', 'pillows', 'mugs', 'sprouts'];
 let insertD = ['chopsticks', 'gusto', 'love', 'terrifying results', 'care and compassion', 'wildness', 'the face of someone who has just licked a lemon', 'red eyes'];
 
