@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width">
 
-    <title>Silly story generator</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
 
-    <style>
-
+  <title>Playground Generator</title>
+ 
+  <style>
     body {
+      text-transform: uppercase;
+      font-weight: bolder;
+      background: #00ffdd;
       font-family: helvetica, sans-serif;
       width: 350px;
     }
 
     label {
-      font-weight: bold;  
+      font-weight: bold;
     }
 
     div {
@@ -28,10 +31,12 @@
     }
 
     p {
-      background: #FFC125;
-      color: #5E2612;
-      padding: 10px;
+      align: center;
+      background: #ff00dd;
+      color: #ffffff;
+      padding: 100px;
       visibility: hidden;
+      text-align: center;
     }
 
     </style>
@@ -53,7 +58,3 @@
       <button class="randomize">Generate random story</button>
     </div>
     <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
-    <p class="story"></p>
-    <script src="main.js"></script>
-  </body>
-</html>
